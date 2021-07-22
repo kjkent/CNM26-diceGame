@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <title>Dice Game!</title>
+</head>
+<body>
+    <div id="splash">
+        <div id="splashContainer">
+            <div id="splashHeader">
+                <img id src="images/logo.png">
+            </div>
+            <div id="rules">
+                <p>RULES:</p>
+                <ul>
+                    <li>Click ROLL to roll the dice</li>
+                    <li>The aim is to get your score to 20</li>
+                    <li>But, if you roll a 1, it's GAME OVER</li>
+                </ul>
+            </div>
+            <div id="start">
+                <button id="startButton" type="button">START</button>
+            </div>
+        </div>
+    </div>
+    <div id="game">
+        <div id="gameContainer">
+            <div id="score">
+                Total: <span id="totalScore">0</span>
+            </div>
+            <div id="dice">
+                <img id="diceImg" src="images/dice.png">
+            </div>
+            <div id="roll">
+                <button id="rollButton" type="button">ROLL!</button>
+            </div>
+        </div>
+    </div>
+    <div id="gameOver">
+        <div id="gameOverContainer">
+            <div id="gameOverHeader"><h2>GAME OVER</h2></div>
+            <div id="restart"><button id="restartButton" type="button">Play it again, Sam!</button></div>
+        </div>
+    </div>
+</body>
+</html>
